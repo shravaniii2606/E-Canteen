@@ -3,16 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <title>Student Dashboard</title>
-    <link rel="stylesheet" href="../css/common.css">
+
+    <link rel="stylesheet" href="../../css/common.css">
+    <link rel="stylesheet" href="../../css/student.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <div class="container">
-        <h1>Student Dashboard</h1>
-        <p>Welcome, Student 👩‍🎓</p>
+<div class="dashboard">
 
-        <a href="login.html">Logout</a>
+    <!-- HEADER -->
+    <div class="header">
+        <div>
+            <p class="hello">Hello, Student 👋</p>
+            <h2>What would you like to have today?</h2>
+        </div>
+        <div class="wallet">₹250</div>
     </div>
+
+    <!-- SEARCH -->
+    <input type="text" class="search" placeholder="Search items">
+
+    <!-- CATEGORIES -->
+    <div class="categories">
+        <button class="active">Breakfast</button>
+        <button>Lunch</button>
+        <button>Snack</button>
+    </div>
+
+    <!-- FOOD GRID -->
+    <div class="food-grid">
+
+        <div class="food-card">
+            <img src="paratha.jpg">
+            <h4>Onion Paratha</h4>
+            <p>₹20.00</p>
+            <button>Add</button>
+        </div>
+
+        <div class="food-card">
+            <img src="omelette.jpg">
+            <h4>Bread Omelette</h4>
+            <p>₹45.00</p>
+            <div class="qty">
+                <button>-</button>
+                <span>1</span>
+                <button>+</button>
+            </div>
+        </div>
+
+        <div class="food-card">
+            <img src="chole.jpg">
+            <h4>Chole Bhatura</h4>
+            <p>₹35.00</p>
+            <button>Add</button>
+        </div>
+
+        <div class="food-card">
+            <img src="juice.jpg">
+            <h4>Juice</h4>
+            <p>₹12.00</p>
+            <button>Add</button>
+        </div>
+
+    </div>
+
+</div>
 
 </body>
 </html>
