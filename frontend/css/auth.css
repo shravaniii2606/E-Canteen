@@ -76,3 +76,16 @@
     font-size: 17px;
     margin-top: 10px;
 }
+.role-select {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+    font-size: 14px;
+}
+
+.role-select label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+}

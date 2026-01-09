@@ -17,9 +17,23 @@
             <p>Create your account</p>
 
             <form>
+
                 <input type="text" placeholder="Name" required>
                 <input type="email" placeholder="Email" required>
                 <input type="password" placeholder="Password" required>
+
+                <!-- Role Selection -->
+                <div class="role-select">
+                    <label>
+                        <input type="radio" name="role" value="student" required>
+                        Student
+                    </label>
+
+                    <label>
+                        <input type="radio" name="role" value="admin">
+                        Admin
+                    </label>
+                </div>
 
                 <button class="btn">Create Account</button>
             </form>
