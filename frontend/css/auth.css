@@ -1,0 +1,78 @@
+/* WELCOME CARD */
+.card {
+    width: 320px;
+    text-align: center;
+}
+
+/* LOGO */
+.logo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 25px;
+    border: 3px solid white;
+}
+
+/* WHITE INFO CARD */
+.white-card {
+    background-color: #ffffff;
+    padding: 22px;
+    border-radius: 18px;
+    margin-bottom: 30px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+}
+
+.white-card h1 {
+    color: #1b0f0a;
+    font-size: 28px;
+    margin-bottom: 6px;
+}
+
+.white-card p {
+    color: #6b3f2b;
+    font-size: 14px;
+}
+
+/* SIGNUP CARD */
+.signup-card {
+    background-color: #ffffff;
+    width: 350px;
+    padding: 35px 30px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.25);
+}
+
+.signup-card h1 {
+    font-size: 32px;
+    color: #1b0f0a;
+    margin-bottom: 8px;
+}
+
+.signup-card p {
+    font-size: 16px;
+    color: #6b3f2b;
+    margin-bottom: 30px;
+}
+
+.signup-card input {
+    width: 100%;
+    padding: 14px 15px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 18px;
+    outline: none;
+}
+
+.signup-card input:focus {
+    border-color: #c68642;
+}
+
+.signup-card .btn {
+    width: 100%;
+    padding: 14px;
+    font-size: 17px;
+    margin-top: 10px;
+}
