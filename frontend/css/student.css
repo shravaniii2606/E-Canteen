@@ -104,34 +104,41 @@
     border: 1px solid #ddd;
     outline: none;
 }
-/* Bottom Navigation */
+body {
+    background: #c06b2b; /* brown side background */
+    display: flex;
+    justify-content: center;
+}
+
+/* Mobile white box */
+.mobile-container {
+    width: 375px;          /* mobile width */
+    min-height: 100vh;
+    background: #f8f8f8;
+    position: relative;    /* VERY IMPORTANT */
+    padding-bottom: 70px;  /* space for navbar */
+}
+
+/* Bottom navbar FIXED INSIDE container */
 .bottom-nav {
-    position: fixed;
+    position: absolute;    /* NOT fixed */
     bottom: 0;
     left: 0;
     width: 100%;
-    background: white;
+    background: #ffffff;
     display: flex;
     justify-content: space-around;
     padding: 10px 0;
     border-top: 1px solid #ddd;
 }
 
-.nav-item {
-    text-align: center;
-    font-size: 12px;
-    color: #888;
-    cursor: pointer;
+.bottom-nav a {
+    text-decoration: none;
+    color: #777;
+    font-size: 13px;
 }
 
-.nav-item span {
-    font-size: 20px;
-    display: block;
-}
-
-.nav-item.active {
-    color: #f57c00;
-}
-.dashboard {
-    padding-bottom: 80px; /* space for bottom nav */
+.bottom-nav a.active {
+    color: #c68642;
+    font-weight: 600;
 }
