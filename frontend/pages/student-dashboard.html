@@ -4,67 +4,54 @@
     <meta charset="UTF-8">
     <title>Student Dashboard</title>
 
-    <link rel="stylesheet" href="../../css/common.css">
-    <link rel="stylesheet" href="../../css/student.css">
-
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/student.css">
 </head>
 <body>
 
 <div class="dashboard">
 
-    <!-- HEADER -->
+    <!-- Header -->
     <div class="header">
-        <div>
-            <p class="hello">Hello, Student 👋</p>
-            <h2>What would you like to have today?</h2>
-        </div>
-        <div class="wallet">₹250</div>
+        <h2>Hello, Student 👋</h2>
+        <p class="balance">₹250</p>
     </div>
 
-    <!-- SEARCH -->
-    <input type="text" class="search" placeholder="Search items">
+    <!-- Search -->
+    <input type="text" class="search-box" placeholder="Search items">
 
-    <!-- CATEGORIES -->
+    <!-- Categories -->
     <div class="categories">
         <button class="active">Breakfast</button>
         <button>Lunch</button>
         <button>Snack</button>
     </div>
 
-    <!-- FOOD GRID -->
+    <!-- Food Items -->
     <div class="food-grid">
 
         <div class="food-card">
-            <img src="paratha.jpg">
             <h4>Onion Paratha</h4>
-            <p>₹20.00</p>
-            <button>Add</button>
+            <p>₹20</p>
+            <button class="add-btn">Add</button>
         </div>
 
         <div class="food-card">
-            <img src="omelette.jpg">
             <h4>Bread Omelette</h4>
-            <p>₹45.00</p>
-            <div class="qty">
-                <button>-</button>
-                <span>1</span>
-                <button>+</button>
-            </div>
+            <p>₹45</p>
+            <button class="add-btn">Add</button>
         </div>
 
         <div class="food-card">
-            <img src="chole.jpg">
-            <h4>Chole Bhatura</h4>
-            <p>₹35.00</p>
-            <button>Add</button>
+            <h4>Chole Bhature</h4>
+            <p>₹35</p>
+            <button class="add-btn">Add</button>
         </div>
 
         <div class="food-card">
-            <img src="juice.jpg">
-            <h4>Juice</h4>
-            <p>₹12.00</p>
-            <button>Add</button>
+            <h4>Tea</h4>
+            <p>₹12</p>
+            <button class="add-btn">Add</button>
         </div>
 
     </div>
