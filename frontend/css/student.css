@@ -7,14 +7,14 @@
 }
 
 body {
-  background: #f3f3f3;
+  background: hsl(40, 95%, 48%);
 }
 
 /* MOBILE CONTAINER */
 .mobile-container {
   max-width: 390px;
   margin: auto;
-  background: hwb(39 3% 4%);
+  background: hwb(10 98% 0% / 0.043);
   min-height: 100vh;
   padding-bottom: 80px; /* space for bottom nav */
 }
@@ -65,7 +65,7 @@ body {
 }
 
 .menu-capsule button {
-  background: #e07a2f;
+  background: #e8a413;
   color: #fff;
   border: none;
   padding: 8px 16px;
@@ -83,7 +83,7 @@ body {
 
 /* FOOD CARD */
 .food-card {
-  background: #fff;
+  background: #e78e13;
   border-radius: 14px;
   padding: 14px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
