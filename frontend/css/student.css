@@ -14,7 +14,7 @@ body {
 .mobile-container {
   max-width: 390px;
   margin: auto;
-  background: hwb(10 98% 0% / 0.043);
+  background: hwb(11 43% 53% / 0.043);
   min-height: 100vh;
   padding-bottom: 80px; /* space for bottom nav */
 }
