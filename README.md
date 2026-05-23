@@ -12,10 +12,10 @@ https://canteen-e7h0.onrender.com/
 
 ## Tech Stack
 
-Frontend: HTML, CSS, JavaScript
-Backend: Python, FastAPI
-Database: PostgreSQL
-Deployed on: Render
+Frontend: HTML, CSS, JavaScript,
+Backend: Python, FastAPI,
+Database: PostgreSQL,
+Deployed on: Render.
 
 ## Features
 
