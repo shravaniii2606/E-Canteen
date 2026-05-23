@@ -19,10 +19,11 @@ Deployed on: Render
 
 ## Features
 
-User signup with schema validation
-Menu browsing and order management
-Real-time data handling via REST APIs
-Organized multi-page frontend structure
+User signup with schema validation,
+Menu browsing and order management,
+Token generation for each order,
+Real-time data handling via REST APIs,
+Organized multi-page frontend structure,
 Database with proper schema and seed data
 
 
