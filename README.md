@@ -24,13 +24,13 @@ Menu browsing and order management,
 Token generation for each order,
 Real-time data handling via REST APIs,
 Organized multi-page frontend structure,
-Database with proper schema and seed data
+Database with proper schema and seed data.
 
 
 ## What I learned
 
-Structuring a fullstack project properly
-PostgreSQL schema design and seed data
-FastAPI with schema validation using Pydantic
-Organizing a multi-page frontend
-Deploying a fullstack app on Render
+Structuring a fullstack project properly,
+PostgreSQL schema design and seed data,
+FastAPI with schema validation using Pydantic,
+Organizing a multi-page frontend,
+Deploying a fullstack app on Render.
